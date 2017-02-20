@@ -12,10 +12,9 @@ namespace Composite;
 class ListComposite implements ListComponent
 {
 	private $listComponents; //use an array or a Collection object
-	private $hTag;
 	private $listName;
 
-	public function __construct($hTag, $listName) { }
+	public function __construct($listName) { }
 
 	public function add(ListComponent $component) { }
 
