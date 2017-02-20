@@ -1,10 +1,10 @@
 <?php
-require_once(__DIR__ . '/src/ListComposite.php');
-require_once(__DIR__ . '/src/ListItem.php');
+
+require_once(__DIR__ . '/vendor/autoload.php');
 
 
-use Composite\ListItem;
 use Composite\ListComposite;
+use Composite\ListItem;
 
 
 $order = new ListComposite("Pizza Order");
