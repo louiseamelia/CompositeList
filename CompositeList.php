@@ -25,6 +25,6 @@ $order->add(new ListItem("Vegetarian Sizzler"));
     <meta charset="utf-8">
 </head>
 <body>
-<?php echo $order->printList(); ?>
+<ul><?php $order->printList(); ?></ul>
 </body>
 </html>
